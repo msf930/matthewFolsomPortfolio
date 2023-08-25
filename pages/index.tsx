@@ -61,7 +61,7 @@ export default function Home() {
                         <button
                             className="btn btn-color-2"
                         >
-                            Download Resume
+                            Download Résumé
                         </button>
                     </a>
                     <Link href="#contact">

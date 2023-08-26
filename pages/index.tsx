@@ -10,8 +10,8 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
 
     function toggleMenu() {
-        const menu = document.querySelector(".menu-links");
-        const icon = document.querySelector(".hamburger-icon");
+        const menu: any  = document.querySelector(".menu-links");
+        const icon: any = document.querySelector(".hamburger-icon");
         menu.classList.toggle("open");
         icon.classList.toggle("open");
     }
@@ -53,7 +53,7 @@ export default function Home() {
                 <div className="circle"></div>
             </div>
             <div className="section__text">
-                <p className="section__text__p1">Hello, I'm</p>
+                <p className="section__text__p1">Hello, I&apos;m</p>
                 <h1 className="title">Matt Folsom</h1>
                 <p className="section__text__p2">Frontend Developer</p>
                 <div className="btn-container">

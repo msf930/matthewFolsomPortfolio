@@ -55,7 +55,7 @@ export default function Home() {
             <div className="section__text">
                 <p className="section__text__p1">Hello, I&apos;m</p>
                 <h1 className="title">Matt Folsom</h1>
-                <p className="section__text__p2">Frontend Developer</p>
+                <p className="section__text__p2">Web Developer</p>
                 <div className="btn-container">
                     <a href="/Folsom_Resume.pdf" download="Folsom_Resume">
                         <button

@@ -489,10 +489,6 @@ article .icon {
 .email-icon {
     height: 2.5rem;
 }
-.socials-container{
-    justify-content: center;
-    align-items: center;
-}
 
 /*MEDIA*/
 @media screen and (max-width: 1400px) {

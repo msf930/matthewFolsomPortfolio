@@ -489,6 +489,10 @@ article .icon {
 .email-icon {
     height: 2.5rem;
 }
+.socials-container{
+    justify-content: center;
+    align-items: center;
+}
 
 /*MEDIA*/
 @media screen and (max-width: 1400px) {
@@ -652,8 +656,33 @@ article .icon {
     .btn-container {
         flex-wrap: wrap;
     }
+    .details-container-about {
+        padding: 1.5rem;
+        flex: 1;
+        background: white;
+        border-radius: 2rem;
+        border: #274C77 0.1rem solid;
+        border-color: #274C77;
+        text-align: center;
+        margin: 1rem 2rem;
+        box-shadow: 10px 10px 5px #E7ECEF;
+        width: 80vw;
+
+    }
+    .text-container{
+        margin: 50px 2em;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-info-upper-container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
     .contact-info-container {
-        margin: 0;
+        margin: 10px;
+    }
+    .nonEmail{
+        padding-left: 5px;
     }
     .contact-info-container p,
     .nav-links li a {

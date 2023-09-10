@@ -70,7 +70,7 @@ export default function Home() {
                         </button>
                     </Link>
                 </div>
-                <div id="socials-container">
+                <div id="socials-container" className="socials-container">
                     <Link target="_blank" href="https://www.linkedin.com/in/matt-folsom/">
                         <img
                             src="/linkedin.png"
@@ -83,6 +83,20 @@ export default function Home() {
                             src="/github.png"
                             alt="My Github profile"
                             className="icon"
+                        />
+                    </Link>
+                    <Link target="_blank" href="tel:7209685664">
+                        <img
+                            src="/phone.png"
+                            alt="My Phone number"
+                            className="icon"
+                        />
+                    </Link>
+                    <Link target="_blank" href="mailto:msf930@gmail.com">
+                        <img
+                            src="/email.png"
+                            alt="My email"
+                            className="icon email-icon"
                         />
                     </Link>
                 </div>
@@ -124,10 +138,13 @@ export default function Home() {
                     </div>
                     <div className="text-container">
                         <p>
-                            As a skilled and experienced front-end developer, I bring a strong passion for creating visually appealing and userfriendly
-                            websites. I have a solid foundation in HTML, CSS, and JavaScript, and experience in
-                            modern libraries such as React and frameworks like Next.
-                            I have a strong eye for detail and a commitment to writing clean, well-structured code.
+                            A skilled and experienced front-end developer, with a strong passion for creating visually appealing and user-friendly
+                            websites and web applications. With a solid foundation in HTML, CSS, and JavaScript, a proven ability to transform
+                            design mockups from Figma, Photoshop, and Illustrator, into responsive and interactive digital experiences. Proficient in
+                            modern front-end frameworks and libraries such as React and Next, leveraging their power to build robust and scalable
+                            solutions. Adept at optimizing website performance and ensuring cross-browser compatibility. A strong eye for detail and
+                            a commitment to writing clean, well-structured code. Collaborating effectively with cross-functional teams, exceling in
+                            both independent and collaborative work environments.
                         </p>
                     </div>
                 </div>
@@ -380,9 +397,17 @@ export default function Home() {
                     <img
                         src="/linkedin.png"
                         alt="LinkedIn icon"
-                        className="icon contact-icon"
+                        className="icon contact-icon nonEmail"
                     />
                     <p><a href="https://www.linkedin.com/in/matt-folsom/" target="_blank">LinkedIn</a></p>
+                </div>
+                <div className="contact-info-container">
+                    <img
+                        src="/phone.png"
+                        alt="LinkedIn icon"
+                        className="icon contact-icon nonEmail"
+                    />
+                    <p><a href="tel:7209685664" target="_blank">(720)-968-5664</a></p>
                 </div>
             </div>
         </section>

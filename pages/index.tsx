@@ -108,7 +108,7 @@ export default function Home() {
                 <h1 className="title">About Me</h1>
             </div>
             <div className="section-container-about">
-                <div className="section__pic-container">
+                <div className="about__pic-container">
                     <img
                         src="about.jpg"
                         alt="Profile picture"
@@ -307,6 +307,7 @@ export default function Home() {
                             />
                         </div>
                         <h2 className="experience-sub-title project-title">Yusha.ai</h2>
+                        <h3 className="experience-desc-text">Client: Fullstack</h3>
                         <div className="btn-container">
                             <Link href="https://github.com/msf930/yusha-front" target="_blank">
                                 <button
@@ -333,6 +334,7 @@ export default function Home() {
                             />
                         </div>
                         <h2 className="experience-sub-title project-title">Rizzazzle Repairs</h2>
+                        <h3 className="experience-desc-text">Client: Frontend</h3>
                         <div className="btn-container">
                             <Link href="https://github.com/msf930/RizzazzleRepairs" target="_blank">
                                 <button
@@ -359,6 +361,7 @@ export default function Home() {
                             />
                         </div>
                         <h2 className="experience-sub-title project-title">MVRBLE</h2>
+                        <h3 className="experience-desc-text">Portfolio: Frontend</h3>
                         <div className="btn-container">
                             <Link href="https://github.com/msf930/MVRBLE" target="_blank">
                                 <button

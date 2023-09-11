@@ -197,7 +197,9 @@ a:hover {
     font-size: 3rem;
     text-align: center;
 }
-
+.resumeBtn{
+    color: black;
+}
 #socials-container {
     display: flex;
     justify-content: center;

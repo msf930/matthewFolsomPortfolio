@@ -59,7 +59,7 @@ export default function Home() {
                 <div className="btn-container">
                     <a href="/Folsom_Resume.pdf" download="Folsom_Resume">
                         <button
-                            className="btn btn-color-2"
+                            className="btn btn-color-2 resumeBtn"
                         >
                             Download Résumé
                         </button>

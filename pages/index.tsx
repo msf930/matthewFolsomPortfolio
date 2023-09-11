@@ -75,28 +75,28 @@ export default function Home() {
                         <img
                             src="/linkedin.png"
                             alt="My LinkedIn profile"
-                            className="icon"
+                            className="heroIcon"
                         />
                     </Link>
                     <Link target="_blank" href="https://github.com/msf930">
                         <img
                             src="/github.png"
                             alt="My Github profile"
-                            className="icon"
+                            className="heroIcon"
                         />
                     </Link>
                     <Link target="_blank" href="tel:7209685664">
                         <img
                             src="/phone.png"
                             alt="My Phone number"
-                            className="icon"
+                            className="heroIcon"
                         />
                     </Link>
                     <Link target="_blank" href="mailto:msf930@gmail.com">
                         <img
                             src="/email.png"
                             alt="My email"
-                            className="icon email-icon"
+                            className="heroIcon email-icon"
                         />
                     </Link>
                 </div>
@@ -389,7 +389,7 @@ export default function Home() {
                     <img
                         src="/email.png"
                         alt="Email icon"
-                        className="icon contact-icon email-icon"
+                        className="icon contact-icon email-icon-small"
                     />
                     <p><a href="mailto:msf930@gmail.com">msf930@gmail.com</a></p>
                 </div>

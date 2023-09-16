@@ -49,7 +49,7 @@ export default function Home() {
         </nav>
         <section id="profile" className="profile">
             <div className="section__pic-container">
-                <img className="profilePic" src="/profile.png" alt="Matt Folsom profile picture"/>
+                <img className="profilePic" src="/profile.png" loading="lazy" alt="Matt Folsom profile picture"/>
                 <div className="circle"></div>
             </div>
             <div className="section__text">
@@ -111,6 +111,7 @@ export default function Home() {
                 <div className="about__pic-container">
                     <img
                         src="about.jpg"
+                        loading="lazy"
                         alt="Profile picture"
                         className="about-pic"
                     />

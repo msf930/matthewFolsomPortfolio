@@ -317,7 +317,7 @@ export default function Home() {
                                     Github
                                 </button>
                             </Link>
-                            <Link href="https://yusha.ai/" target="_blank">
+                            <Link href="http://yusha.ai/" target="_blank">
                                 <button
                                     className="btn btn-color-2 project-btn"
                                 >

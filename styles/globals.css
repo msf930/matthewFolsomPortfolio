@@ -426,6 +426,8 @@ article .icon {
     align-items: center;
     justify-content: center;
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
 }
 .details-container-project {
     padding: 1.5rem;
@@ -437,6 +439,13 @@ article .icon {
     text-align: center;
     margin: 2rem;
 
+
+}
+.experience-desc-text {
+    color: rgb(85, 85, 85);
+    font-weight: 500;
+    font-size: 1 rem;
+    margin-bottom: 1.5rem;
 }
 .article-container-project {
     display: flex;
@@ -840,6 +849,6 @@ article .icon {
         border-color: rgb(163, 163, 163);
         text-align: center;
         margin: 2rem;
-        width: 80%
+        width: 80%;
     }
 }

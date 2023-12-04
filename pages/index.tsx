@@ -302,13 +302,42 @@ export default function Home() {
                     <div className="details-container-project color-container">
                         <div className="article-container-project">
                             <img
-                                src="/yusha.jpg"
+                                src="/businessTemplate.jpg"
                                 alt="Project 1"
+                                className="project-img"
+                            />
+                        </div>
+                        <h2 className="experience-sub-title project-title">Business Template</h2>
+                        <h3 className="experience-desc-text">Portfolio: Static</h3>
+                        <h3 className="experience-desc-text">Next.js</h3>
+                        <div className="btn-container">
+                            <Link href="https://github.com/msf930/businessTemplate" target="_blank">
+                                <button
+                                    className="btn btn-color-2 project-btn"
+                                >
+                                    Github
+                                </button>
+                            </Link>
+                            <Link href="https://business-template-delta.vercel.app/" target="_blank">
+                                <button
+                                    className="btn btn-color-2 project-btn"
+                                >
+                                    Live Demo
+                                </button>
+                            </Link>
+                        </div>
+                    </div>
+                    <div className="details-container-project color-container">
+                        <div className="article-container-project">
+                            <img
+                                src="/yusha.jpg"
+                                alt="Project 2"
                                 className="project-img"
                             />
                         </div>
                         <h2 className="experience-sub-title project-title">Yusha.ai</h2>
                         <h3 className="experience-desc-text">Client: Fullstack</h3>
+                        <h3 className="experience-desc-text">React, Sanity CMS</h3>
                         <div className="btn-container">
                             <Link href="https://github.com/msf930/yusha-front" target="_blank">
                                 <button
@@ -330,12 +359,13 @@ export default function Home() {
                         <div className="article-container-project">
                             <img
                                 src="/rizazzleRepairs.jpg"
-                                alt="Project 2"
+                                alt="Project 3"
                                 className="project-img"
                             />
                         </div>
                         <h2 className="experience-sub-title project-title">Rizzazzle Repairs</h2>
                         <h3 className="experience-desc-text">Client: Frontend</h3>
+                        <h3 className="experience-desc-text">React</h3>
                         <div className="btn-container">
                             <Link href="https://github.com/msf930/RizzazzleRepairs" target="_blank">
                                 <button
@@ -357,12 +387,13 @@ export default function Home() {
                         <div className="article-container-project">
                             <img
                                 src="/MVRBLE.jpg"
-                                alt="Project 3"
+                                alt="Project 4"
                                 className="project-img"
                             />
                         </div>
                         <h2 className="experience-sub-title project-title">MVRBLE</h2>
                         <h3 className="experience-desc-text">Portfolio: Frontend</h3>
+                        <h3 className="experience-desc-text">React</h3>
                         <div className="btn-container">
                             <Link href="https://github.com/msf930/MVRBLE" target="_blank">
                                 <button

@@ -580,6 +580,10 @@ article .icon {
     .email-icon-small{
         height: 2.5rem;
     }
+    .about{
+        position: relative;
+        margin-top: 300px;
+    }
 
     .about-containers {
         flex-direction: row;
@@ -764,6 +768,11 @@ article .icon {
     .section__text{
         margin-top: 4rem;
     }
+    .about{
+        position: relative;
+        margin-top: 0;
+    }
+
     .about-containers,
     .contact-info-upper-container,
     .btn-container {

@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import Head from 'next/head';
+import Image from 'next/image';
+import { Inter } from 'next/font/google';
+import styles from '@/styles/Home.module.css';
 import Link from "next/link";
 
 
@@ -299,6 +299,34 @@ export default function Home() {
             </div>
             <div className="project-details-container">
                 <div className="project-containers">
+                <div className="details-container-project color-container">
+                        <div className="article-container-project">
+                            <img
+                                src="/floWorks.png"
+                                alt="Project 0"
+                                className="project-img"
+                            />
+                        </div>
+                        <h2 className="experience-sub-title project-title">FloWorks Plumbing</h2>
+                        <h3 className="experience-desc-text">Client: Static</h3>
+                        <h3 className="experience-desc-text">Next.js</h3>
+                        <div className="btn-container">
+                            <Link href="https://github.com/msf930/FloWorks" target="_blank">
+                                <button
+                                    className="btn btn-color-2 project-btn"
+                                >
+                                    Github
+                                </button>
+                            </Link>
+                            <Link href="https://floworks.vercel.app/" target="_blank">
+                                <button
+                                    className="btn btn-color-2 project-btn"
+                                >
+                                    Visit Site
+                                </button>
+                            </Link>
+                        </div>
+                    </div>
                     <div className="details-container-project color-container">
                         <div className="article-container-project">
                             <img
@@ -322,7 +350,7 @@ export default function Home() {
                                 <button
                                     className="btn btn-color-2 project-btn"
                                 >
-                                    Live Demo
+                                    Visit Site
                                 </button>
                             </Link>
                         </div>
@@ -350,7 +378,7 @@ export default function Home() {
                                 <button
                                     className="btn btn-color-2 project-btn"
                                 >
-                                    Live Demo
+                                    Visit Site
                                 </button>
                             </Link>
                         </div>
@@ -378,7 +406,7 @@ export default function Home() {
                                 <button
                                     className="btn btn-color-2 project-btn"
                                 >
-                                    Live Demo
+                                    Visit Site
                                 </button>
                             </Link>
                         </div>
@@ -406,7 +434,7 @@ export default function Home() {
                                 <button
                                     className="btn btn-color-2 project-btn"
                                 >
-                                    Live Demo
+                                    Visit Site
                                 </button>
                             </Link>
                         </div>

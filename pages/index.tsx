@@ -15,6 +15,7 @@ export default function Home() {
         menu.classList.toggle("open");
         icon.classList.toggle("open");
     }
+    console.log("node version: ", process.version);
   return (
     <>
         <Head>
